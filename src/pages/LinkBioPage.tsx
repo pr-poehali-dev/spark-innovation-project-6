@@ -2,38 +2,32 @@ import { motion } from "framer-motion"
 import { ProfileSection } from "@/components/ProfileSection"
 import { LinkCard } from "@/components/LinkCard"
 import { SocialFooter } from "@/components/SocialFooter"
-import { Globe, Youtube, Mail, ShoppingBag, FileText, MessageCircle, Send } from "lucide-react"
+import { ShoppingBag, Mail, MessageCircle, Send, Star, Package } from "lucide-react"
 
 const links = [
   {
-    title: "Мой сайт",
-    description: "Портфолио и услуги",
-    href: "#",
-    icon: Globe,
-  },
-  {
-    title: "YouTube канал",
-    description: "Видео и туториалы",
-    href: "#",
-    icon: Youtube,
-  },
-  {
-    title: "Магазин",
-    description: "Товары и услуги",
+    title: "Каталог украшений",
+    description: "Колечки и брелки из резинок",
     href: "#",
     icon: ShoppingBag,
   },
   {
-    title: "Telegram",
-    description: "Написать напрямую",
+    title: "Сделать заказ",
+    description: "Напишите — и я всё сделаю сам",
     href: "#",
     icon: Send,
   },
   {
-    title: "Бесплатные материалы",
-    description: "Шаблоны и гайды",
+    title: "Отзывы покупателей",
+    description: "Что говорят о моих изделиях",
     href: "#",
-    icon: FileText,
+    icon: Star,
+  },
+  {
+    title: "Условия доставки",
+    description: "Отправляю по всей России",
+    href: "#",
+    icon: Package,
   },
 ]
 
@@ -211,8 +205,8 @@ export function LinkBioPage() {
       >
         <motion.div variants={itemVariants} className="pt-2">
           <ProfileSection
-            name="GlassLinks"
-            bio="Креативный дизайнер и разработчик"
+            name="Ирфан Хамитов"
+            bio="Делаю украшения из резинок своими руками 🧡 Колечки и брелки с любовью"
             imageUrl="/images/544291433-18043960274659947-5766591717842883293-n.jpg"
           />
         </motion.div>
@@ -226,7 +220,7 @@ export function LinkBioPage() {
         </motion.div>
 
         <motion.div variants={itemVariants} className="pb-2">
-          <SocialFooter socials={socials} copyright="2025 GlassLinks" />
+          <SocialFooter socials={socials} copyright="2026 Ирфан Хамитов" />
         </motion.div>
       </motion.div>
     </main>
