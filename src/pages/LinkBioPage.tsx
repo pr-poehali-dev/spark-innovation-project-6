@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import { ProfileSection } from "@/components/ProfileSection"
 import { LinkCard } from "@/components/LinkCard"
 import { SocialFooter } from "@/components/SocialFooter"
-import { ShoppingBag, Mail, MessageCircle, Send, Star, Package } from "lucide-react"
+import { ShoppingBag, Mail, MessageCircle, Send, Star, Package, Phone } from "lucide-react"
 
 const links = [
   {
@@ -28,6 +28,12 @@ const links = [
     description: "Отправляю по всей России",
     href: "#",
     icon: Package,
+  },
+  {
+    title: "Позвонить",
+    description: "+7 (927) 191-57-94",
+    href: "tel:+79271915794",
+    icon: Phone,
   },
 ]
 
