@@ -7,7 +7,7 @@ import { ShoppingBag, Mail, MessageCircle, Send, Star, Package } from "lucide-re
 const links = [
   {
     title: "Каталог украшений",
-    description: "Колечки и брелки из резинок",
+    description: "Резинки и брелки",
     href: "#",
     icon: ShoppingBag,
   },
